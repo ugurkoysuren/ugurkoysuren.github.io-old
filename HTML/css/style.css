@@ -20,8 +20,11 @@ body {
     line-height : 1.8em;
     color       : #3d3d50;
     font-weight : 300;
-    background  : url("../img/pattern-bg.png") fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     }
+
 
 /* --------------------------------------
  * Global Typography
@@ -567,3 +570,13 @@ button:focus,
     text-align : center;
     top        : 65%;
 }
+
+#particles-js {
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: red;
+  }
