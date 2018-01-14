@@ -189,6 +189,7 @@ button:focus,
     flex         : 2 0 0;
     position     : relative;
     background   : #ffffff;
+    opacity: 0.8;
     }
 
 @media (max-width : 768px) {
